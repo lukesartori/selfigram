@@ -14,6 +14,7 @@
 		529D180520477B6400BD093F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529D180320477B6400BD093F /* LaunchScreen.storyboard */; };
 		529D181020477B6500BD093F /* selfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D180F20477B6500BD093F /* selfigramTests.swift */; };
 		529D181B20477B6500BD093F /* selfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D181A20477B6500BD093F /* selfigramUITests.swift */; };
+		529D18292047913400BD093F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D18282047913400BD093F /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		529D181620477B6500BD093F /* selfigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selfigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		529D181A20477B6500BD093F /* selfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfigramUITests.swift; sourceTree = "<group>"; };
 		529D181C20477B6500BD093F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529D18282047913400BD093F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				529D180120477B6400BD093F /* Assets.xcassets */,
 				529D180320477B6400BD093F /* LaunchScreen.storyboard */,
 				529D180620477B6400BD093F /* Info.plist */,
+				529D18282047913400BD093F /* MainTabBarController.swift */,
 			);
 			path = selfigram;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				529D17FD20477B6400BD093F /* ViewController.swift in Sources */,
 				529D17FB20477B6400BD093F /* AppDelegate.swift in Sources */,
+				529D18292047913400BD093F /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
