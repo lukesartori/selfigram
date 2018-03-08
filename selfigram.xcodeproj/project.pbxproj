@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		523E6161204E2D5400930BDE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E6160204E2D5400930BDE /* ProfileViewController.swift */; };
+		5269AC5E2050C869003DEF0B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC5D2050C869003DEF0B /* User.swift */; };
+		5269AC602050CA7C003DEF0B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC5F2050CA7C003DEF0B /* Post.swift */; };
 		529D17FB20477B6400BD093F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D17FA20477B6400BD093F /* AppDelegate.swift */; };
 		529D17FD20477B6400BD093F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D17FC20477B6400BD093F /* ViewController.swift */; };
 		529D180020477B6400BD093F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529D17FE20477B6400BD093F /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		523E6160204E2D5400930BDE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5269AC5D2050C869003DEF0B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5269AC5F2050CA7C003DEF0B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		529D17F720477B6400BD093F /* selfigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529D17FA20477B6400BD093F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529D17FC20477B6400BD093F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +105,9 @@
 		529D17F920477B6400BD093F /* selfigram */ = {
 			isa = PBXGroup;
 			children = (
+				5269AC5D2050C869003DEF0B /* User.swift */,
 				529D17FA20477B6400BD093F /* AppDelegate.swift */,
+				5269AC5F2050CA7C003DEF0B /* Post.swift */,
 				529D17FC20477B6400BD093F /* ViewController.swift */,
 				529D17FE20477B6400BD093F /* Main.storyboard */,
 				523E6160204E2D5400930BDE /* ProfileViewController.swift */,
@@ -268,6 +274,8 @@
 				529D17FD20477B6400BD093F /* ViewController.swift in Sources */,
 				529D17FB20477B6400BD093F /* AppDelegate.swift in Sources */,
 				523E6161204E2D5400930BDE /* ProfileViewController.swift in Sources */,
+				5269AC602050CA7C003DEF0B /* Post.swift in Sources */,
+				5269AC5E2050C869003DEF0B /* User.swift in Sources */,
 				529D18292047913400BD093F /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

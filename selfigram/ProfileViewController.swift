@@ -62,7 +62,6 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
         
         usernameLabel.text = "Luke"
         
-        
     }
 
     override func didReceiveMemoryWarning() {
