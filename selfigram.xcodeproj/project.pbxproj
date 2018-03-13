@@ -18,6 +18,7 @@
 		529D181020477B6500BD093F /* selfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D180F20477B6500BD093F /* selfigramTests.swift */; };
 		529D181B20477B6500BD093F /* selfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D181A20477B6500BD093F /* selfigramUITests.swift */; };
 		529D18292047913400BD093F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D18282047913400BD093F /* MainTabBarController.swift */; };
+		52AF55EE2057483A0074F651 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF55ED2057483A0074F651 /* FeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		529D181A20477B6500BD093F /* selfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfigramUITests.swift; sourceTree = "<group>"; };
 		529D181C20477B6500BD093F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529D18282047913400BD093F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		52AF55ED2057483A0074F651 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				5269AC5F2050CA7C003DEF0B /* Post.swift */,
 				529D17FC20477B6400BD093F /* ViewController.swift */,
 				529D17FE20477B6400BD093F /* Main.storyboard */,
+				52AF55ED2057483A0074F651 /* FeedTableViewController.swift */,
 				523E6160204E2D5400930BDE /* ProfileViewController.swift */,
 				529D180120477B6400BD093F /* Assets.xcassets */,
 				529D180320477B6400BD093F /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 				529D17FD20477B6400BD093F /* ViewController.swift in Sources */,
 				529D17FB20477B6400BD093F /* AppDelegate.swift in Sources */,
 				523E6161204E2D5400930BDE /* ProfileViewController.swift in Sources */,
+				52AF55EE2057483A0074F651 /* FeedTableViewController.swift in Sources */,
 				5269AC602050CA7C003DEF0B /* Post.swift in Sources */,
 				5269AC5E2050C869003DEF0B /* User.swift in Sources */,
 				529D18292047913400BD093F /* MainTabBarController.swift in Sources */,
