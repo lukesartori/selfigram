@@ -29,14 +29,14 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAR-HO-ZaC">
-                                <rect key="frame" x="148" y="325" width="79" height="21"/>
+                                <rect key="frame" x="148" y="335" width="79" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NdL-Kn-YQH">
-                                <rect key="frame" x="97" y="297" width="54" height="30"/>
-                                <state key="normal" title="Camera"/>
+                                <rect key="frame" x="99.5" y="297" width="73" height="30"/>
+                                <state key="normal" title="Edit avatar"/>
                                 <connections>
                                     <action selector="cameraButtonPressed:" destination="c4d-Wh-S8V" eventType="touchUpInside" id="g3w-TK-s2V"/>
                                 </connections>
@@ -45,8 +45,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="NdL-Kn-YQH" firstAttribute="firstBaseline" secondItem="PlY-Y5-mC8" secondAttribute="baseline" constant="22" symbolType="layoutAnchor" id="UuV-mg-qIf"/>
-                            <constraint firstItem="PlY-Y5-mC8" firstAttribute="leading" secondItem="NdL-Kn-YQH" secondAttribute="trailing" constant="-53.5" id="Yq1-nB-h1R"/>
-                            <constraint firstItem="MAR-HO-ZaC" firstAttribute="top" secondItem="PlY-Y5-mC8" secondAttribute="bottom" constant="30" id="drR-zS-Ltt"/>
+                            <constraint firstItem="PlY-Y5-mC8" firstAttribute="leading" secondItem="NdL-Kn-YQH" secondAttribute="trailing" constant="-75" id="Yq1-nB-h1R"/>
+                            <constraint firstItem="MAR-HO-ZaC" firstAttribute="top" secondItem="PlY-Y5-mC8" secondAttribute="bottom" constant="40" id="drR-zS-Ltt"/>
                             <constraint firstItem="PlY-Y5-mC8" firstAttribute="centerX" secondItem="TfG-Nj-ljo" secondAttribute="centerX" id="erP-Qz-rGt"/>
                             <constraint firstItem="PlY-Y5-mC8" firstAttribute="top" secondItem="41D-jt-vqR" secondAttribute="top" constant="46" id="iHc-4j-MwX"/>
                             <constraint firstItem="MAR-HO-ZaC" firstAttribute="centerX" secondItem="TfG-Nj-ljo" secondAttribute="centerX" id="zeE-e9-Au5"/>
