@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2F3EE3128993883EFD68A9CD /* Pods_selfigramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1246C5A66AF770C9D4359820 /* Pods_selfigramTests.framework */; };
+		52144A442069BD4E004E7C1E /* UINavigationItem+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52144A432069BD4E004E7C1E /* UINavigationItem+Helpers.swift */; };
 		523E6161204E2D5400930BDE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E6160204E2D5400930BDE /* ProfileViewController.swift */; };
 		524C1F482059F4FB0010E239 /* selfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524C1F472059F4FB0010E239 /* selfieCell.swift */; };
 		5269AC5E2050C869003DEF0B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC5D2050C869003DEF0B /* User.swift */; };
 		5269AC602050CA7C003DEF0B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC5F2050CA7C003DEF0B /* Post.swift */; };
 		529D17FB20477B6400BD093F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D17FA20477B6400BD093F /* AppDelegate.swift */; };
-		529D17FD20477B6400BD093F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D17FC20477B6400BD093F /* ViewController.swift */; };
 		529D180020477B6400BD093F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529D17FE20477B6400BD093F /* Main.storyboard */; };
 		529D180220477B6400BD093F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529D180120477B6400BD093F /* Assets.xcassets */; };
 		529D180520477B6400BD093F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529D180320477B6400BD093F /* LaunchScreen.storyboard */; };
@@ -48,13 +48,13 @@
 		1246C5A66AF770C9D4359820 /* Pods_selfigramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_selfigramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		418EA24FF0E0F2E7F091BBB7 /* Pods-selfigram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selfigram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-selfigram/Pods-selfigram.debug.xcconfig"; sourceTree = "<group>"; };
 		44A3888BDAC7057826A99A51 /* Pods_selfigram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_selfigram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52144A432069BD4E004E7C1E /* UINavigationItem+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Helpers.swift"; sourceTree = "<group>"; };
 		523E6160204E2D5400930BDE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		524C1F472059F4FB0010E239 /* selfieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfieCell.swift; sourceTree = "<group>"; };
 		5269AC5D2050C869003DEF0B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5269AC5F2050CA7C003DEF0B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		529D17F720477B6400BD093F /* selfigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529D17FA20477B6400BD093F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		529D17FC20477B6400BD093F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		529D17FF20477B6400BD093F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		529D180120477B6400BD093F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529D180420477B6400BD093F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -124,10 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				524C1F472059F4FB0010E239 /* selfieCell.swift */,
-				529D17FC20477B6400BD093F /* ViewController.swift */,
 				523E6160204E2D5400930BDE /* ProfileViewController.swift */,
 				52AF55ED2057483A0074F651 /* FeedTableViewController.swift */,
 				529D18282047913400BD093F /* MainTabBarController.swift */,
+				52144A432069BD4E004E7C1E /* UINavigationItem+Helpers.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -494,13 +494,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				529D17FD20477B6400BD093F /* ViewController.swift in Sources */,
 				529D17FB20477B6400BD093F /* AppDelegate.swift in Sources */,
 				523E6161204E2D5400930BDE /* ProfileViewController.swift in Sources */,
 				524C1F482059F4FB0010E239 /* selfieCell.swift in Sources */,
 				52AF55EE2057483A0074F651 /* FeedTableViewController.swift in Sources */,
 				5269AC602050CA7C003DEF0B /* Post.swift in Sources */,
 				5269AC5E2050C869003DEF0B /* User.swift in Sources */,
+				52144A442069BD4E004E7C1E /* UINavigationItem+Helpers.swift in Sources */,
 				529D18292047913400BD093F /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

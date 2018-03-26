@@ -15,12 +15,12 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
     @IBOutlet weak var usernameLabel: UILabel!
     @IBAction func cameraButtonPressed(_ sender: Any) {
         
-        // 1: Create an ImagePickerController
+            // 1: Create an ImagePickerController
         let pickerController = UIImagePickerController()
         
-        // 2: Self in this line refers to this View Controller
-        //    Setting the Delegate Property means you want to receive a message
-        //    from pickerController when a specific event is triggered.
+            // 2: Self in this line refers to this View Controller
+            //    Setting the Delegate Property means you want to receive a message
+            //    from pickerController when a specific event is triggered.
         pickerController.delegate = self
         
         if TARGET_OS_SIMULATOR == 1 {
@@ -60,7 +60,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationItem.addNavbarLogo()
         
     }
     
