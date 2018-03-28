@@ -20,6 +20,7 @@
 		529D181020477B6500BD093F /* selfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D180F20477B6500BD093F /* selfigramTests.swift */; };
 		529D181B20477B6500BD093F /* selfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D181A20477B6500BD093F /* selfigramUITests.swift */; };
 		529D18292047913400BD093F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D18282047913400BD093F /* MainTabBarController.swift */; };
+		52A7D0DB206C597300FD3071 /* activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A7D0DA206C597300FD3071 /* activity.swift */; };
 		52AF55EE2057483A0074F651 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF55ED2057483A0074F651 /* FeedTableViewController.swift */; };
 		A3B44FF8F6DB42B8EF03775D /* Pods_selfigramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DF00044942501B120680D7 /* Pods_selfigramUITests.framework */; };
 		A6EA54AF7A3972F5611D8A54 /* Pods_selfigram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A3888BDAC7057826A99A51 /* Pods_selfigram.framework */; };
@@ -66,6 +67,7 @@
 		529D181A20477B6500BD093F /* selfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfigramUITests.swift; sourceTree = "<group>"; };
 		529D181C20477B6500BD093F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529D18282047913400BD093F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		52A7D0DA206C597300FD3071 /* activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activity.swift; sourceTree = "<group>"; };
 		52AF55ED2057483A0074F651 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		83D50ACD0290E95F9D254F89 /* Pods-selfigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selfigram.release.xcconfig"; path = "Pods/Target Support Files/Pods-selfigram/Pods-selfigram.release.xcconfig"; sourceTree = "<group>"; };
 		B869A4573461FE895BD52E18 /* Pods-selfigramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selfigramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-selfigramUITests/Pods-selfigramUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		524C1F432059F3630010E239 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				52A7D0DA206C597300FD3071 /* activity.swift */,
 				5269AC5D2050C869003DEF0B /* User.swift */,
 				5269AC5F2050CA7C003DEF0B /* Post.swift */,
 			);
@@ -499,6 +502,7 @@
 				524C1F482059F4FB0010E239 /* selfieCell.swift in Sources */,
 				52AF55EE2057483A0074F651 /* FeedTableViewController.swift in Sources */,
 				5269AC602050CA7C003DEF0B /* Post.swift in Sources */,
+				52A7D0DB206C597300FD3071 /* activity.swift in Sources */,
 				5269AC5E2050C869003DEF0B /* User.swift in Sources */,
 				52144A442069BD4E004E7C1E /* UINavigationItem+Helpers.swift in Sources */,
 				529D18292047913400BD093F /* MainTabBarController.swift in Sources */,
