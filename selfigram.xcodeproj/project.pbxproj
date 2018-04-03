@@ -22,6 +22,8 @@
 		529D18292047913400BD093F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D18282047913400BD093F /* MainTabBarController.swift */; };
 		52A7D0DB206C597300FD3071 /* activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A7D0DA206C597300FD3071 /* activity.swift */; };
 		52AF55EE2057483A0074F651 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF55ED2057483A0074F651 /* FeedTableViewController.swift */; };
+		52EE7B8D2072EB9500D9E3B3 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE7B8C2072EB9500D9E3B3 /* ActivityCell.swift */; };
+		52EE7B912072F29C00D9E3B3 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE7B902072F29C00D9E3B3 /* ActivityTableViewController.swift */; };
 		A3B44FF8F6DB42B8EF03775D /* Pods_selfigramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DF00044942501B120680D7 /* Pods_selfigramUITests.framework */; };
 		A6EA54AF7A3972F5611D8A54 /* Pods_selfigram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A3888BDAC7057826A99A51 /* Pods_selfigram.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +71,8 @@
 		529D18282047913400BD093F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		52A7D0DA206C597300FD3071 /* activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activity.swift; sourceTree = "<group>"; };
 		52AF55ED2057483A0074F651 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		52EE7B8C2072EB9500D9E3B3 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		52EE7B902072F29C00D9E3B3 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
 		83D50ACD0290E95F9D254F89 /* Pods-selfigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selfigram.release.xcconfig"; path = "Pods/Target Support Files/Pods-selfigram/Pods-selfigram.release.xcconfig"; sourceTree = "<group>"; };
 		B869A4573461FE895BD52E18 /* Pods-selfigramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selfigramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-selfigramUITests/Pods-selfigramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BE10AEC75329505D912C4C30 /* Pods-selfigramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-selfigramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-selfigramUITests/Pods-selfigramUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,11 +130,13 @@
 		524C1F442059F37F0010E239 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				52EE7B8C2072EB9500D9E3B3 /* ActivityCell.swift */,
 				524C1F472059F4FB0010E239 /* selfieCell.swift */,
 				523E6160204E2D5400930BDE /* ProfileViewController.swift */,
 				52AF55ED2057483A0074F651 /* FeedTableViewController.swift */,
 				529D18282047913400BD093F /* MainTabBarController.swift */,
 				52144A432069BD4E004E7C1E /* UINavigationItem+Helpers.swift */,
+				52EE7B902072F29C00D9E3B3 /* ActivityTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -497,6 +503,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EE7B912072F29C00D9E3B3 /* ActivityTableViewController.swift in Sources */,
+				52EE7B8D2072EB9500D9E3B3 /* ActivityCell.swift in Sources */,
 				529D17FB20477B6400BD093F /* AppDelegate.swift in Sources */,
 				523E6161204E2D5400930BDE /* ProfileViewController.swift in Sources */,
 				524C1F482059F4FB0010E239 /* selfieCell.swift in Sources */,
